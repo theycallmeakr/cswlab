@@ -60,10 +60,14 @@ a,b=b,a'''
 a=5
 b=6
 c=8
+'''
 if a>b and b>c:
     print("a is greater")
 elif a<b and b>c:
     print("b i s greater")
 else:
     print("c is greater")
+'''
 
+print("b is greater") if a>b else  print("a is greater")
+    
