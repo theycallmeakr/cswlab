@@ -60,14 +60,28 @@ a,b=b,a'''
 a=5
 b=6
 c=8
-'''
+
 if a>b and b>c:
     print("a is greater")
 elif a<b and b>c:
-    print("b i s greater")
+    print("b is greater")
 else:
     print("c is greater")
-'''
 
-print("b is greater") if a>b else  print("a is greater")
-    
+
+#print("b is greater") if a>b else  print("a is greater")
+
+qty= int(input("enter no"))
+price= int(input("enter no"))
+print(qty)
+if qty>1000:
+      dis=10
+else:
+      dis=0
+total = qty*price-dis*qty*price/100
+
+
+sum=qty+5
+print(sum)
+
+
