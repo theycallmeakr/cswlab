@@ -1,0 +1,4 @@
+- [x] Modify factorial.java to import Scanner
+- [x] Change main method to take user input for n
+- [x] Add check in main: if (n < 0) { System.out.println("Negative"); return; }
+- [x] Otherwise, calculate factorial and print as before
