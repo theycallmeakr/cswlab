@@ -87,7 +87,7 @@ print(sum)
 '''
 
 
-
+'''
 salary=input("enter salary :")
 print("first salary =",salary)
 if salary<=1500:
@@ -98,3 +98,73 @@ else:
     da=0.90*salary
 
 gross=salary+hra+da  
+'''
+'''day=5
+match day:
+    case 1|2|3|4|5:
+        print("monday")
+    case 6:
+        print("saturday")
+    case 7:
+        print("sunday")
+    case _:
+        print("enter the no between 1 to 7 bitch")'''
+
+
+'''a = 12
+b = 45
+
+op=int(input("enter operation 1 to 7"))
+match op:
+    case 1:
+        c = a + b
+        print("Add:", c)
+    case 2:
+        d = a - b
+        print("Sub:", d)
+    case 3:
+        e = a * b
+        print("Multiply:", e)
+    case 4:
+        f = a ** b
+        print("Power:", f)
+    case 5:
+        g = a / b
+        print("Div:", g)
+    case 6:
+        h = a % b
+        print("Mod:", h)
+    case 7:
+        i = a // b
+        print("Floor Division:", i)
+'''
+'''a=3
+i=10
+while(i>0):
+    i=i-1
+    a=a+a
+    print(a)
+    if i==2:
+        continue
+'''
+
+'''for i in range(1,20,2):
+    print(i)
+a=0  
+while a>20:
+    a=a+2           
+    print(a)   
+'''
+s = "bbsr-751030"
+alp = 0
+dig = 0
+
+for i in s:
+    if i.isalpha():
+        alp += 1
+    elif i.isdigit():
+        dig += 1
+
+print("Alphabets:", alp)
+print("Digits:", dig)
+
