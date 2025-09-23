@@ -56,7 +56,7 @@ i=a//b
 print(c,d,e,f,g,h,i)
 
 a,b=b,a'''
-
+'''
 a=5
 b=6
 c=8
@@ -84,4 +84,17 @@ total = qty*price-dis*qty*price/100
 sum=qty+5
 print(sum)
 
+'''
 
+
+
+salary=input("enter salary :")
+print("first salary =",salary)
+if salary<=1500:
+    hra=0
+    da=
+else:
+    hra=0.10*salary
+    da=0.90*salary
+
+gross=salary+hra+da  
