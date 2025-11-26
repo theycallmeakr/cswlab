@@ -37,9 +37,10 @@ import re
 
 s = input("Enter a string: ")
 
-pattern = r'^[A-Za-z$].*'
 
-if re.match(pattern, s):
+result = re.findall(r'^[A-Za-z$]', s)
+
+if result:
     print("Valid: First character is alphabet or $")
 else:
     print("Invalid: First character is NOT alphabet or $")
